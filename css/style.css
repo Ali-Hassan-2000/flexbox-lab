@@ -24,7 +24,7 @@ h1, h2 {
 }
 
 h1 {
-  margin-top: 0;
+  margin-top: 0; 
   font-size: 32px;
 }
 
@@ -99,7 +99,6 @@ nav {
     justify-content: space-between; /* Space between destinations & actions */
     align-items: center; /* Center items vertically */
     padding: 10px 20px; /* Padding around the nav */
-    border-bottom: 2px solid #00ff00; /* Green bottom border */
 }
 
 /* destinations part */
@@ -122,7 +121,74 @@ nav {
     margin: 0 10px;
 }
 
-nav button {
+nav button { /* add to navigation button styles */
     cursor: pointer;
 }
 /* End Part 1 : navigation */
+
+/* Part 2 : section.hero */
+/* start */
+
+section { /* add to section styles */
+    text-align: center;
+}
+
+#headers h1 {
+    display: inline-block; /* Make border only under text */
+}
+
+#headers h2 {
+    color: white; /* White text for the subtitle */
+    margin: 10px 0; /* Margin above and below the subtitle */
+}
+
+input[type="text"] {
+    margin: 20px ; 
+
+}
+
+#trending {
+    display: flex; /* flexbox for layout */
+    align-items: center; /* Center items vertically */
+    gap: 10px;
+    justify-content: center; /* Center items horizontally */
+    margin-top: 20px; /* Margin above trending section */
+}   
+
+/* end part 2 : section.hero */
+
+/* Part 3 : subNav */
+/* Start */
+
+#subnav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sort{
+    display: flex;
+    cursor: pointer; /* Pointer cursor for clickable items */
+}
+
+#filter{
+    display: flex;
+    cursor: pointer; /* Pointer cursor for clickable items */
+}
+
+/* End Part 3 : subNav */
+
+/* Part 4 : Main */
+/* Start */
+
+main{
+    display: flex;
+    flex-wrap: wrap; /* wrap content to new line */
+    justify-content: space-around;
+}
+
+article h3,p{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* End Part 4 : Main */

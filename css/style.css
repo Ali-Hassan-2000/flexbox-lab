@@ -186,7 +186,7 @@ main{
     justify-content: space-around;
 }
 
-article h3,p{
+.card-footer {
     display: flex;
     justify-content: space-between;
 }

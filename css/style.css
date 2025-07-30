@@ -8,11 +8,6 @@ body {
   margin: 0;
 }
 
-nav {
-  background-color: white;
-  padding: 8px 16px;
-}
-
 p {
   margin: 0;
 }
@@ -94,3 +89,41 @@ nav button {
   border-radius: 50px;
   padding: 6px 15px;
 }
+
+/* Part 1 : navigation */
+/* start */
+
+nav {
+    background-color: white;
+    display: flex; /* flexbox for layout */
+    justify-content: space-between; /* Space between destinations & actions */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px; /* Padding around the nav */
+    border-bottom: 2px solid #00ff00; /* Green bottom border */
+}
+
+/* destinations part */
+#destinations {
+    display: flex; /* Flexbox for destinations */
+}
+
+#destinations p {
+    margin: 0 20px; 
+    cursor: pointer; /* Pointer cursor for clickable items */
+}
+
+/* action part */
+#actions {
+    display: flex; /* Flexbox for actions */
+    align-items: center;
+}
+
+#actions p {
+    margin: 0 10px;
+}
+
+nav button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+

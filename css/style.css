@@ -3,9 +3,9 @@
 }
 
 body {
-  background-color: gray;
+  background-color: rgb(46, 46, 46); /* background color changed */
   font-family: system-ui, sans-serif;
-  margin: 0;
+  margin: 70px; /* margin changed from 0 to 70px to display the background color*/
 }
 
 p {
@@ -103,7 +103,7 @@ nav {
 
 /* destinations part */
 #destinations {
-    display: flex; /* Flexbox for destinations */
+    display: flex; 
 }
 
 #destinations p {
@@ -113,7 +113,7 @@ nav {
 
 /* action part */
 #actions {
-    display: flex; /* Flexbox for actions */
+    display: flex; 
     align-items: center;
 }
 
@@ -135,24 +135,24 @@ section { /* add to section styles */
 
 #headers h1 {
     display: inline-block; /* Make border only under text */
+    margin-top: 30px;
 }
 
 #headers h2 {
-    color: white; /* White text for the subtitle */
+    color: white; 
     margin: 10px 0; /* Margin above and below the subtitle */
 }
 
 input[type="text"] {
-    margin: 20px ; 
-
+    margin: 50px 0;
 }
 
 #trending {
-    display: flex; /* flexbox for layout */
-    align-items: center; /* Center items vertically */
+    display: flex; 
+    align-items: center; 
     gap: 10px;
     justify-content: center; /* Center items horizontally */
-    margin-top: 20px; /* Margin above trending section */
+    margin-top: 50px; /* Margin above trending section */
 }   
 
 /* end part 2 : section.hero */
@@ -167,13 +167,14 @@ input[type="text"] {
 
 #sort{
     display: flex;
-    cursor: pointer; /* Pointer cursor for clickable items */
+    cursor: pointer; 
 }
 
 #filter{
     display: flex;
-    cursor: pointer; /* Pointer cursor for clickable items */
+    cursor: pointer;
 }
+
 
 /* End Part 3 : subNav */
 
